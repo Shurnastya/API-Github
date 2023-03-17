@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+.search-line {
+    display: flex;
+    justify-content: center;
+}
+
+.users {
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.user-prev {
+    list-style-type: none;
+}
+
+.search-input {
+    width: 350px;
+    height: 25px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.user-prev-photo {
+    width: 150px;
+}
+
+.user-prev-name {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.user-prev-name:hover {
+    color: rgb(46, 84, 173);
+    transition: 0.3s;
+}
